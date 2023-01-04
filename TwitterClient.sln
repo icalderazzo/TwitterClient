@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterClient.Models", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterClient.Client", "src\TwitterClient.Client\TwitterClient.Client.csproj", "{22ADB08E-B230-4CAD-9C3C-140344E907F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterClient.UnitTests", "test\TwitterClient.UnitTests\TwitterClient.UnitTests.csproj", "{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D19CDC1C-056E-4932-9C02-BE71BEC74FA0} = {7B765904-01EC-4646-AFD9-FB8205AE9E4D}
 		{22ADB08E-B230-4CAD-9C3C-140344E907F6} = {7B765904-01EC-4646-AFD9-FB8205AE9E4D}
+		{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7} = {62488BE5-627B-4883-A4BF-9FBFEF65E1D7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D19CDC1C-056E-4932-9C02-BE71BEC74FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -32,5 +35,9 @@ Global
 		{22ADB08E-B230-4CAD-9C3C-140344E907F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22ADB08E-B230-4CAD-9C3C-140344E907F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22ADB08E-B230-4CAD-9C3C-140344E907F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED9AC6E-EF58-41E5-BAB0-156FBA3EDBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
