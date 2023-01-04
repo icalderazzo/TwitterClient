@@ -12,7 +12,7 @@ internal class TwitterClientResponseBuilder : ITwitterClientResponseBuilder
         return new TwitterClientResponse {
             Success = response.IsSuccessful,
             Code = (int) response.StatusCode,
-            Message = response.Data?.ToString()
+            Message = response.Data?.Data?.ToString()
         };
     }
 
